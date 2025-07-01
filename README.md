@@ -3,6 +3,7 @@ A data analysis project on improving pet adoption rates using SQL and Tableau
 
 ## Project Overview
 This project explores historical adoption data from an animal shelter to identify trends and improve adoption outcomes. Using SQL and Tableau, the analysis focuses on understanding adoption timing, adopter behavior, and pet characteristics to inform strategy.
+
 Business Question:  
 How can this shelter improve pet adoption rates and optimize the adoption process using animal and adopter data?
 
