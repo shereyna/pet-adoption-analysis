@@ -20,11 +20,11 @@ How can this shelter improve pet adoption rates and optimize the adoption proces
 Keywords: adoption trends, pet return risk, segmentation, seasonal analysis, data storytelling, SQL analysis
 
 ## Project Structure
-data/ → Raw and cleaned CSV files
-sql/ → SQL queries for table creation and analysis
-tableau/ → Exported dashboards and visuals
-insights/ → Final report and recommendations
-README.md → Project overview and navigation
+- data/ → Raw and cleaned CSV files
+- sql/ → SQL queries for table creation and analysis
+- tableau/ → Exported dashboards and visuals
+- insights/ → Final report and recommendations
+- README.md → Project overview and navigation
 
 ## Business Value
 This analysis helps animal shelters:
