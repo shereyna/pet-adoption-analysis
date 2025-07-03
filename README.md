@@ -1,14 +1,11 @@
-# pet-adoption-analysis
-A data analysis project on improving pet adoption rates using SQL and Tableau
+# Pet Adoption Analysis
+**Project Overview:**  
+Analyzed historical pet adoption data from an animal shelter to identify trends and recommend strategies to improve adoption outcomes. Worked independently over three weeks to clean and analyze the dataset in SQL, focusing on adoption timing, adopter behavior, and pet characteristics. Visualized findings in Tableau to surface actionable insights aimed at helping the shelter enhance marketing efforts, optimize intake planning, and better align pets with potential adopters.
+- **Tools:** SQL (MySQL), Tableau, Excel/CSV
+- **Original Dataset**: [Pet Adoption Records on Kaggle](https://www.kaggle.com/datasets/chaudharisanika/pet-adoption-records-with-animal-and-adopter-data)
+- **Keywords:** adoption trends, pet return risk, segmentation, seasonal analysis, data storytelling, SQL analysis
 
-## Project Overview
-This project explores historical adoption data from an animal shelter to identify trends and improve adoption outcomes. Using SQL and Tableau, the analysis focuses on understanding adoption timing, adopter behavior, and pet characteristics to inform strategy.
-
-**Goal**: Use historical data to improve adoption rates and reduce pet returns through data-driven recommendations.
-
-**Original Dataset**: [Pet Adoption Records on Kaggle] (https://www.kaggle.com/datasets/chaudharisanika/pet-adoption-records-with-animal-and-adopter-data)
-
-**Business Question:**  
+## Business Question 
 How can this shelter improve pet adoption rates and optimize the adoption process using animal and adopter data?
 
 ## Supporting Questions
@@ -20,32 +17,39 @@ How can this shelter improve pet adoption rates and optimize the adoption proces
 ## Key Insights & Recommendations
 ### 1. **Adoption Speed by Pet Type**
 - **Insight**: Hamsters are adopted the fastest; Cats are the slowest.
-- **Recommendation**: Boost visibility of Cats through seasonal promotions or "adopt-a-cat" weeks.
-
+- **Recommendation**: Investigate ways to boost visibility for under-adopted pet types like cats. Seasonal campaigns or targeted features (e.g., "Adopt-a-Cat Week") could be tested.
+![alt text](tablaeu/adoption_speed_by_species.png "Adoption Speed by Pet Type")
+  
 ### 2. **Adopter Demographics**
 - **Insight**: Adopters aged **30+** with prior pet experience adopt pets faster.
-- **Recommendation**: Launch referral or loyalty programs targeting experienced pet owners.
+- **Recommendation**: Consider targeting outreach to experienced adopters through loyalty, referral, or alumni programs. This group may be more ready to adopt and retain pets.
+![alt text](tablaeu/adopter_demographics.png "Adopter Demograhics")
 
 ### 3. **Seasonal Adoption Trends**
 - **Insight**: Peak adoptions occur in **June**, followed by **January** and **August**.
-- **Recommendation**: Schedule adoption drives and marketing campaigns around **late Spring and Summer**.
+- **Recommendation**: Align major adoption drives and marketing campaigns with these seasonal peaks. Explore why demand spikes in summer and early winter.
+![alt text](tablaeu/adoption_seasonal_trends.png "Seasonal Adoption Trends")
 
-### 4. **Pet Returns and Risk Factors**
+### 4. **Pet Returns**
 - **Insight**: Cats and Dogs of certain high-maintenance breeds are returned more often.
-- **Recommendation**: Offer post-adoption education and behavioral support for these specific breeds.
+- **Recommendation**: Explore post-adoption support programs for these breeds. Consider pre-adoption education or matching pets more carefully with adopter lifestyles.
+![alt text](tablaeu/returns_by_species_breed.png "Pet Returns") 
 
-Visualizations can be found in the [`tableau/`](./tableau/) folder. 
+Visualizations can be found in the [tableu](tablaeu) folder. 
+
+## Business Value
+This analysis helps animal shelters:
+- Promote under-adopted pets with targeted campaigns
+- Segment adopter outreach based on behavior and experience
+- Time campaigns strategically with seasonal trends
+- Reduce returns by improving post-adoption support and better match pets with adopters
 
 ## Tools and Skills Used
 - SQL (MySQL): Data segmentation and time-based analysis
 - Tableau: Data visualization and dashboard creation
 - Excel / CSV: Data cleaning and preparation
 
-Keywords: adoption trends, pet return risk, segmentation, seasonal analysis, data storytelling, SQL analysis
-
-## Business Value
-This analysis helps animal shelters:
-- Reduce adoption delays by promoting under-adopted pets
-- Target adopters more effectively based on behavior and experience
-- Plan adoption campaigns around seasonal patterns
-- Reduce pet returns through better matching and support programs
+## Folder Structure
+- [data](data): Contains both the original and cleaned datasets used in the analysis
+- [sql](sql): Contains queries used for analysis
+- [tableu](tablaeu): Contains all exported Tableau visualizations
