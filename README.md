@@ -22,7 +22,7 @@ How can this shelter improve pet adoption rates and optimize the adoption proces
   
 ### 2. **Adopter Demographics**
 - **Insight**: Adopters aged **30+** with prior pet experience adopt pets faster.
-- **Recommendation**: Consider targeting outreach to experienced adopters through loyalty, referral, or alumni programs. This group may be more ready to adopt and retain pets.
+- **Recommendation**: Consider targeting outreach to experienced adopters through loyalty or referral programs. This group may be more ready to adopt and retain pets.
 ![alt text](tablaeu/adopter_demographics.png "Adopter Demograhics")
 
 ### 3. **Seasonal Adoption Trends**
