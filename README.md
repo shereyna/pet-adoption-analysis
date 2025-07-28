@@ -35,7 +35,7 @@ How can this shelter improve pet adoption rates and optimize the adoption proces
 - **Recommendation**: Explore post-adoption support programs for these breeds. Consider pre-adoption education or matching pets more carefully with adopter lifestyles.
 ![alt text](tablaeu/returns_by_species_breed.png "Pet Returns") 
 
-Visualizations can be found in the [tableu](tablaeu) folder. 
+Visualizations can be found in the [tableu](tablaeu) folder or on [Tableau Public](https://public.tableau.com/views/pet_adoption_data/ImprovingPetAdoptionOutcomesInsightsbyAdopterDemographics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Business Value
 This analysis helps animal shelters:
