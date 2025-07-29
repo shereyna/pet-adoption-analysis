@@ -8,11 +8,19 @@ Analyzed historical pet adoption data from an animal shelter to identify trends 
 ## Business Question 
 How can this shelter improve pet adoption rates and optimize the adoption process using animal and adopter data?
 
-## Supporting Questions
+### Supporting Questions
 - What types of pets are adopted most quickly?
 - Which adopter demographics are associated with faster adoptions?
 - Are there seasonal or regional patterns in adoption rates?
 - What factors are associated with unsuccessful or delayed adoptions?
+
+## Executive Summary
+- Hamsters are adopted the fastest, while cats have the slowest average adoption times.
+- Experienced adopters aged 30+ tend to complete adoptions more quickly.
+- Adoptions peak in June, January, and August, suggesting seasonal opportunities for promotion.
+- Returns are higher for certain breeds of cats and dogs, often linked to high-maintenance traits.
+
+These insights point to specific strategies that could increase adoption efficiency, reduce returns, and improve outcomes for pets and adopters alike.
 
 ## Key Insights & Recommendations
 ### 1. **Adoption Speed by Pet Type**
@@ -37,19 +45,18 @@ How can this shelter improve pet adoption rates and optimize the adoption proces
 
 Visualizations can be found in the [tableu](tablaeu) folder or on [Tableau Public](https://public.tableau.com/views/pet_adoption_data/ImprovingPetAdoptionOutcomesInsightsbyAdopterDemographics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Business Value
-This analysis helps animal shelters:
-- Promote under-adopted pets with targeted campaigns
-- Segment adopter outreach based on behavior and experience
-- Time campaigns strategically with seasonal trends
-- Reduce returns by improving post-adoption support and better match pets with adopters
-
-## Tools and Skills Used
+### Tools and Skills Used
 - SQL (MySQL): Data segmentation and time-based analysis
 - Tableau: Data visualization and dashboard creation
 - Excel / CSV: Data cleaning and preparation
 
-## Folder Structure
+### Folder Structure
 - [data](data): Contains both the original and cleaned datasets used in the analysis
 - [sql](sql): Contains queries used for analysis
 - [tableu](tablaeu): Contains all exported Tableau visualizations
+
+### Methodology
+- Cleaned data in Excel (handled NULLs, date formatting, categorical standardization)
+- Wrote SQL queries to calculate adoption speed, identify seasonal trends, segment adopter behavior, and track return rates
+- Flagged high-risk adoptions (e.g., breed with return rate > 12%) for recommendations
+- Visualized key insights in Tableau using bar charts, trend lines, and grouped comparisons
